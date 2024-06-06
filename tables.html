@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>Student ID</th>
+            <th>Student name</th>
+            <th>Sex</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- <td>24</td> -->
+                <td colspan="3">A</td>
+                <!-- <td>F</td> -->
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>B</td>
+                <td>M</td>
+                <td rowspan="3">19</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>C</td>
+                <td>F</td>
+                <!-- <td>18</td> -->
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>D</td>
+                <td>F</td>
+                <!-- <td>19</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1 cell 1</td>
+                <td>row 1 cell 2</td>
+                <td>row 1 cell 3</td>
+            </tr>
+            <tr>
+                
+                <td>row 2 cell 2</td>
+                <td>row  2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">row 3 cell 1</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>microsoft</td>
+                <td>1000</td>
+                <td rowspan="4">company founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>apple</td>
+                <td>1200</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>larry page</td>
+                <td>google</td>
+                <td>1100</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mark zuckerberg</td>
+                <td>facebook</td>
+                <td>1300</td>
+               
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">total expense</td>
+                <td>4600</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1">
+        <thead>
+            <th>country</th>
+            <th>state</th>
+            <th>city</th>
+            <th>street</th>
+            <th>male</th>
+            <th>female</th>
+            <th>others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">kerala</td>
+                <td rowspan="2">cochin</td>
+                <td>new street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">trivandrum</td>
+                <td>guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+               
+            </tr>
+            <tr>
+                <td>tvk street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">maharashtra</td>
+                <td rowspan="2">mumbai</td>
+                <td>krisha street</td>
+                <td>700</td>
+                <td>600</td>
+                <td>4</td>
+                
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>400</td>
+                <td>500</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td rowspan="2">surath</td>
+                <td>new street</td>
+                <td>300</td>
+                <td>600</td>
+                <td>4</td>
+                
+            </tr>
+            <tr>
+                <td>billa street</td>
+                <td>500</td>
+                <td>500</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">alaska</td>
+                <td rowspan="2">aka central</td>
+                <td>old street</td>
+                <td>700</td>
+                <td>650</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>cross street</td>
+                <td>700</td>
+                <td>770</td>
+                <td>10</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="5">Seminar</th>
+                
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2" colspan="3">Topic</th>
+                
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8</td>
+                <td rowspan="2">5</td>
+                <td>introduction to xml</td>
+                
+            </tr>
+            <tr>
+                <td>validity:dtd and relax ng</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8</td>
+                <td>11</td>
+                <td rowspan="2">xpath</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>2</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>xsl transformation</td>
+                
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8</td>
+                <td>12</td>
+                <td>xsl formatting objects</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
